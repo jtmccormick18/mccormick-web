@@ -1,0 +1,263 @@
+body{
+    background-size: cover;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.home{
+    padding-bottom:0%;
+    background-image: none;
+    background-size: cover;
+}
+.bannerContainer {
+    position:relative;    
+}
+/* .empPortal{
+    background-color:white;
+} */
+/* nav{
+    background-color: white; opacity: 0.8; filter: alpha(opacity=80);
+} */
+.homeNav {
+    position:absolute;
+    top:0;
+    z-index:10;
+    background-color: white; opacity: 0.8; filter: alpha(opacity=80);
+    width:100%;
+}
+
+#contactUsHeader{
+    color:black;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    /* height: 50vh; */
+    max-height:75vh;
+    overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+    display: block;
+    }
+.serviceImage{
+    width:auto;
+    max-height:20vh;
+}
+
+.caption{
+    box-shadow: 0 0 5px #C8C8C8;
+    transition: all 0.3s ease 0s;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.carousel-inner { 
+    height: 100vh;
+ }
+ .carousel-about{
+     height:50vh;
+ }
+
+ .carousel-item  { 
+    height: 100%;
+ }
+ /* .carousel-inner img {
+    margin: auto !important;
+  } */
+#logoDisplay{
+    position: relative;   
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logoCap{
+    top: 70%;
+    transform: translateY(-50%);
+}
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10vh !important;
+    max-height:100% !important;
+    padding-bottom: 100%;
+    position: relative;
+    max-width: 100%;
+}
+.servList{
+    max-width: 50%;background-color: none
+}
+.picArea{
+    width:90% !important;
+    max-width:100%;
+}
+.img-circle {
+    border-radius: 50%;
+    border-width: .33rem;
+    border-style:solid;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    max-height:25vh;
+}
+.clientDisplay{
+    margin-top:10px;
+
+}
+#clientDisplay{
+    position: relative;   
+    top: 20%;
+    transform: translateY(-50%);
+
+}
+.clientCap{
+    top: 60%;
+    transform: translateY(-50%);
+    font-size:90%;
+}
+.clientDescrip{
+    font-size:110% !important;
+
+}
+
+.sidenav{
+    height:100%;
+}
+.invisible{
+    display:none;
+}
+.maps{
+    width:100%;
+    height:50vh;
+}
+.datacloud{
+    border:3px solid red !important;
+}
+.dataembed{
+    border:2px solid white !important;
+}
+.staffDescrip{
+    font-size:1rem;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    text-shadow: .25rem auto red;
+}
+.staffCat{
+    color:white;
+    text-shadow:
+		-.5px -.5px 0 red,
+		.5px -.5px 0 red,
+		-.5px .5px 0 red,
+		.5px .5px 0 red;
+}
+
+.empName{
+    font-size:1.5rem;
+    font-family:'Exo',sans-serif;
+    padding:0px auto;
+    word-wrap: normal;
+    margin:0 auto;
+    margin-top:1px;
+    color:white;
+}
+.empTitle{
+    word-wrap: normal;
+    max-width:90%;
+    color: blue;
+    padding:0px auto;
+    margin: 0 auto;
+    font-size: 1.15rem;
+}
+.demo{
+    max-height:30vh;
+    width:auto;
+    max-width:100%;
+}
+@media (min-width:768px) {
+    /* .navbar-collapse {
+        width: 100%;
+    } */
+   
+}
+@media(max-width:768px){
+    .staffCat{
+        text-shadow: none;
+        font-size:3rem;
+    }
+    /* .navbar-right{
+        display:none;
+    } */
+    .helperImg{
+        display:none
+    }
+    .empName{
+        word-wrap: none;
+        font-size:1rem;
+    }
+    .serviceImage{
+        width:auto;
+        max-height:15vh;
+    }
+    .servList{
+        max-width:100%;
+    }
+    .carCap{
+        top: 60%;
+        transform: translateY(-50%);
+    }
+    #logoDisplay{
+        position: relative;   
+        top: 30%;
+        transform: translateY(-50%);
+    }
+    .logoCap{
+        top: 60%;
+    transform: translateY(-50%);
+    }
+    #clientDisplay{
+        position: relative;   
+        top: 10%;
+        transform: translateY(-50%);
+        max-height:100px;
+    }
+    .clientCap{
+        top: 45%;
+        transform: translateY(-50%);
+        font-size:10px;
+    }
+    .clientDescrip{
+        font-size:110% !important;
+    
+    }
+    .clientJumbo{
+        padding:0;
+        padding-top:10px;
+    }
+    .aboutTag{
+        margin:0 auto !important;
+        text-align:center !important;
+    }
+    .picArea{
+        width:50% !important;
+        max-width:90%;
+    }
+    .border-right{
+        border:none !important;
+    }
+}
